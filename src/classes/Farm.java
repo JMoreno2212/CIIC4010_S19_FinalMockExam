@@ -33,14 +33,8 @@ public class Farm { // You can probably guess where the inspiration came from (Y
 	 * @return The new animal for sale
 	 */
 	public String newAnimalForSale() {
-		String lastAnimal = animals.remove(animals.size() - 1);
-		for(int i = 0; i < itemsForSale.length - 1; i++) {
-			if(itemsForSale[i] == null) {
-				itemsForSale[i] = lastAnimal;
-				break;
-			}
-		}
-		return lastAnimal;
+		// YOUR CODE HERE
+		return null; // Dummy return
 	}
 	
 	/**
@@ -52,20 +46,10 @@ public class Farm { // You can probably guess where the inspiration came from (Y
 	 * @param crop - The crop requested by the man
 	 * @return true if the crop is sold, false otherwise
 	 */
+	
 	public boolean sellCrop(String crop) {
-		for(String myCrop : crops) {
-			if(myCrop.equals(crop)) {
-				for(int i = 0; i < itemsForSale.length - 1; i++) {
-					if(itemsForSale[i] != null && itemsForSale[i].equals(crop)) {
-						itemsForSale[i] = null;
-						crops.remove(myCrop);
-						money += 20;
-						return true;
-					}
-				}
-			}
-		}
-		return false;
+		// YOUR CODE HERE
+		return false; // Dummy return
 	}
 	
 	/**
@@ -80,13 +64,8 @@ public class Farm { // You can probably guess where the inspiration came from (Y
 	 */
 	
 	public int upgrade(int costOfCrop, int costOfAnimal) {
-		while(this.getMoney() >= costOfCrop + costOfAnimal) {
-				this.setMoney(this.getMoney() - costOfCrop - costOfAnimal);
-				crops.add("crop");;
-				animals.add("animal");		
-		}
-		
-		return this.getMoney();
+		// YOUR CODE HERE
+		return 0; // Dummy return
 	}
 	
 	// Getters - Although given here, you should review how to implement them yourself... (same with the Setters)
