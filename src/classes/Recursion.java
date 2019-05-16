@@ -11,12 +11,10 @@ public class Recursion {
      * @return Returns the sum of the digits of the number. 
      */
     public static int sumOfDigits(int num){
-    	
-    	// Add your code here.
-    	
-    	return 0;//Dummy Return
-                           
+    	// YOUR CODE HERE
+    	return 0; // Dummy Return                       
     }
+    
     /**
      * Exercise #2: In this exercise you must find the sum of all the elements of an array of integers.
      * NOTE: It must be solved recursively. You need to implement a helper function.
@@ -24,11 +22,8 @@ public class Recursion {
      * @return Returns the sum of all the elements of the array.
      */
     public static int sumOfElements(int[] arr){
-    	
-    	// Add your code here.
-    	
-    	return 0;//Dummy Return
-     
+    	// YOUR CODE HERE
+    	return 0; // Dummy Return
     }
     
     /**
@@ -39,11 +34,10 @@ public class Recursion {
      * @param wordLength - The length of the word.
      * @return Returns the word backwards.
      */
+    
     public static String invertWord(String word, int wordLength){
-    	
-    	// Add your code here.
-    	
-    	return null;//Dummy Return
+    	// YOUR CODE HERE
+    	return null; // Dummy Return
   
     }
  
