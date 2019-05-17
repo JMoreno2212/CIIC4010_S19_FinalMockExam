@@ -12,7 +12,7 @@ import org.junit.Test;
 import classes.Recursion;
 
 public class RecursionTester {
-	int[] sumArray, sumArray2, sumArray3, sumArray4;
+	private int[] sumArray, sumArray2, sumArray3, sumArray4;
 	
 	@Before
 	public void setUp() {

@@ -13,10 +13,10 @@ import org.junit.Test;
 import classes.Farm;
 
 public class FarmTester {
-	Farm farm1, farm2, farm3, farm4;
-	ArrayList<String> crops1, crops2, crops3, crops4;
-	ArrayList<String> animals1, animals2, animals3, animals4;
-	String[] itemsForSale1, itemsForSale2, itemsForSale3, itemsForSale4;
+	private Farm farm1, farm2, farm3, farm4;
+	private ArrayList<String> crops1, crops2, crops3, crops4;
+	private ArrayList<String> animals1, animals2, animals3, animals4;
+	private String[] itemsForSale1, itemsForSale2, itemsForSale3, itemsForSale4;
 
 	@Before
 	public void setUp() {
